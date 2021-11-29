@@ -2,6 +2,9 @@ import React from 'react'
 import LayoutEffect from './ejerciciosHooks/LayoutEffect';
 import ContextComponent from './ejerciciosHooks/ContextComponent';
 import MemoComponent from './ejerciciosHooks/MemoComponent';
+import CallbackComponent from './ejerciciosHooks/CallbackComponent';
+import CustomHookComponent from './ejerciciosHooks/CustomHookComponent';
+import TareasComponent from './ejerciciosHooks/TareasComponent';
 
 const ComponenteTema04 = () => {
 
@@ -9,7 +12,10 @@ const ComponenteTema04 = () => {
         <>
             {/* <LayoutEffect /> */}
             {/* <ContextComponent /> */}
-            <MemoComponent />
+            {/* <MemoComponent /> */}
+            {/* <CallbackComponent /> */}
+            {/* <CustomHookComponent /> */}
+            <TareasComponent />
         </>
     )
 }
