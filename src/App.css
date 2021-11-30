@@ -58,5 +58,29 @@ nav.links a {
 }
 
 a.active {
-  font-weight: '700';
+  font-weight: bold;
+}
+
+.listado-productos li {
+  list-style-type: none;
+}
+
+.product-details {
+  padding: 20px;
+  display: flex;
+}
+
+.left-column {
+  max-width: 50vw;
+}
+
+.left-column img {
+  padding: 20px;
+  max-width: 200px;
+  box-shadow: 0 0 10px #ccc;
+  border-radius: 10px;
+}
+
+.right-column {
+  max-width: 50vw;
 }

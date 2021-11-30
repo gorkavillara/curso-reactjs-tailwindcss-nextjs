@@ -1,7 +1,14 @@
 import React from "react";
+import { Outlet } from "react-router-dom";
 
-const Facturas = () => {
-  return <h1>Soy el Home</h1>;
+const Home = () => {
+  return (
+    <>
+      <div className="content">
+        <Outlet />
+      </div>
+    </>
+  );
 };
 
-export default Facturas;
+export default Home;
