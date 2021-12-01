@@ -7,7 +7,7 @@ const Contador = () => {
   return (
     <div>
       Contador
-      <p>El valor del Redux state es: {contador}</p>
+      <p>El valor del Redux state es: <span data-testid="contador">{contador}</span></p>
       <button onClick={() => dispatch({ type: "INCREMENTAR" })}>
         Incrementar
       </button>
